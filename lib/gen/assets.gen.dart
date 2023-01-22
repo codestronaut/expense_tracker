@@ -14,10 +14,13 @@ import 'package:flutter/services.dart';
 class Assets {
   Assets._();
 
+  static const AssetGenImage brand = AssetGenImage('assets/brand.png');
+  static const AssetGenImage english = AssetGenImage('assets/english.png');
+  static const AssetGenImage indonesia = AssetGenImage('assets/indonesia.png');
   static const SvgGenImage onboarding = SvgGenImage('assets/onboarding.svg');
 
   /// List of all assets
-  List<SvgGenImage> get values => [onboarding];
+  List<dynamic> get values => [brand, english, indonesia, onboarding];
 }
 
 class AssetGenImage {

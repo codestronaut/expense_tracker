@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
-import 'ui/auth/onboarding_screen.dart';
+import 'features/onboarding/onboarding.dart';
 
 class AppRouter {
   AppRouter();

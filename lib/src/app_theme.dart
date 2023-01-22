@@ -69,8 +69,10 @@ class AppTheme {
 
   static ThemeData light() {
     return ThemeData(
+      primarySwatch: Colors.orange,
       brightness: Brightness.light,
       appBarTheme: AppBarTheme(
+        elevation: 0.0,
         foregroundColor: ColorsLib.darkPrimary,
         backgroundColor: Colors.white,
       ),
@@ -87,8 +89,10 @@ class AppTheme {
 
   static ThemeData dark() {
     return ThemeData(
+      primarySwatch: Colors.orange,
       brightness: Brightness.dark,
       appBarTheme: AppBarTheme(
+        elevation: 0.0,
         foregroundColor: Colors.white,
         backgroundColor: ColorsLib.darkPrimary,
       ),
